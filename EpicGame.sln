@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGameShared", "EpicGameShared\EpicGameShared.csproj", "{2223F329-41F5-42CC-960C-41B8694D1043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGameSharedServer", "EpicGameSharedServer\EpicGameSharedServer.csproj", "{929B5694-A89B-4C77-B42E-56A1DDCEB173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGame_PlayerSystem", "EpicGame_PlayerSystem\EpicGame_PlayerSystem.csproj", "{B6C00ED0-5FDF-4ED9-A4A0-C6BB1883119D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGame_ItemSystem", "EpicGame_ItemSystem\EpicGame_ItemSystem.csproj", "{BAF56325-257C-4BD9-9CD2-519F534074CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGame_LocationSystem", "EpicGame_LocationSystem\EpicGame_LocationSystem.csproj", "{8D65DE89-BDDD-4D0F-91DF-B5F656341FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGameTest", "EpicGameTest\EpicGameTest.csproj", "{AA547FF5-990A-4641-933F-B4748D13C9D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2223F329-41F5-42CC-960C-41B8694D1043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2223F329-41F5-42CC-960C-41B8694D1043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2223F329-41F5-42CC-960C-41B8694D1043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2223F329-41F5-42CC-960C-41B8694D1043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929B5694-A89B-4C77-B42E-56A1DDCEB173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929B5694-A89B-4C77-B42E-56A1DDCEB173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929B5694-A89B-4C77-B42E-56A1DDCEB173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929B5694-A89B-4C77-B42E-56A1DDCEB173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C00ED0-5FDF-4ED9-A4A0-C6BB1883119D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C00ED0-5FDF-4ED9-A4A0-C6BB1883119D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C00ED0-5FDF-4ED9-A4A0-C6BB1883119D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C00ED0-5FDF-4ED9-A4A0-C6BB1883119D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF56325-257C-4BD9-9CD2-519F534074CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF56325-257C-4BD9-9CD2-519F534074CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF56325-257C-4BD9-9CD2-519F534074CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF56325-257C-4BD9-9CD2-519F534074CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D65DE89-BDDD-4D0F-91DF-B5F656341FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D65DE89-BDDD-4D0F-91DF-B5F656341FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D65DE89-BDDD-4D0F-91DF-B5F656341FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D65DE89-BDDD-4D0F-91DF-B5F656341FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA547FF5-990A-4641-933F-B4748D13C9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA547FF5-990A-4641-933F-B4748D13C9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA547FF5-990A-4641-933F-B4748D13C9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA547FF5-990A-4641-933F-B4748D13C9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FE0E0FA-08FD-41CE-AE12-6E08816000DB}
+	EndGlobalSection
+EndGlobal
