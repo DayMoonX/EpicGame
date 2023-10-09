@@ -2,14 +2,20 @@
 {
     public interface IPlayer
     {
-        /// <summary>
-        /// Никнейм игрока
-        /// </summary>
         string Nickname { get; set; }
 
-        /// <summary>
-        /// Локация игрока
-        /// </summary>
         IMover Location { get; set; }
+
+        IPlayerItem[] Inventory { get; set; }
+    }
+
+    public interface IPlayerItem
+    {
+        long Id { get; set; }
+
+        int ItemId { get; set; }
+        string Owner { get; set; }
+
+        int Count { get; set; }
     }
 }

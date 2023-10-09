@@ -7,5 +7,6 @@ namespace EpicGame.Models
     {
         public string Nickname { get; set; }
         public IMover Location { get; set; }
+        public IPlayerItem[] Inventory { get; set; }
     }
 }
